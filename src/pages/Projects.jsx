@@ -4,7 +4,7 @@ import Imagegallery from '../components/Imagegallery'
 import Webdev from '../components/Webdev'
 import Youtube from '../components/Youtube'
 
-function Projects() {
+const Projects = () => {
   return (
     <div className="container-fluid">
       <div>
@@ -17,4 +17,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Projects;
